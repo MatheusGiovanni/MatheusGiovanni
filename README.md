@@ -4,8 +4,12 @@ Arduino library created fascilitar for writing and reading codes, in which the u
 
 Functions:
 
-Motor.M1move ( 255, HIGH) ; // Set the direction of the motor 1
-Motor.M2move ( 255, LOW) ; // Set the direction of the motor 2
+Motor.M1move ( 255, HIGH) ;
+// Set the direction of the motor one.
 
-Motor.M1parar (); // Stop 
-Motor.M2parar (); // Stop
+Motor.M2move ( 255, LOW) ; 
+// Set the direction of the motor two.
+
+Motor.M1parar (); // Stop.
+
+Motor.M2parar (); // Stop.
